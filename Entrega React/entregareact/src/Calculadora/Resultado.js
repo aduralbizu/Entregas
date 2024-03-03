@@ -1,14 +1,12 @@
 import './Resultado.css'
 import Container from 'react-bootstrap/Container';
 
-function Resultado() {
-
-    const resultado = 89;
+function Resultado(props) {
 
     return (
         <div>
             <Container>
-                <h2>Resultado: {resultado}</h2>
+                <h2>Resultado: {props.resultado}</h2>
             </Container>
         </div>
     )
