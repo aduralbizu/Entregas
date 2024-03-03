@@ -6,7 +6,7 @@ function Resultado(props) {
     return (
         <div>
             <Container>
-                <h2>Resultado: {props.resultado}</h2>
+                <h3>Resultado: {props.resultado}</h3>
             </Container>
         </div>
     )

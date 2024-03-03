@@ -18,11 +18,11 @@ function Operandos(props) {
             <Container>
                 <Row>
                     <Col>
-                        <Form.Label><h2>A</h2></Form.Label>
+                        <Form.Label><h3>A</h3></Form.Label>
                         <Form.Control onChange = {AHandler} type="text" value={props.A} />
                     </Col>
                     <Col>
-                        <Form.Label><h2>B</h2></Form.Label>
+                        <Form.Label><h3>B</h3></Form.Label>
                         <Form.Control onChange = {BHandler} type="text" value={props.B}/>
                     </Col>
                 </Row>

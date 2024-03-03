@@ -16,12 +16,12 @@ function Botones(props) {
 
     return (
         <div>
-            <Container className="p-4">
-                <Row>
-                    <Col xs={1} ><Button onClick={operacionHandler} value="+" variant={operacion === '+' ? 'primary' : 'secondary'}>+</Button></Col>
-                    <Col xs={1}><Button onClick={operacionHandler} value="-" variant={operacion === '-' ? 'primary' : 'secondary'}>-</Button></Col>
-                    <Col xs={1}><Button onClick={operacionHandler} value="x" variant={operacion === 'x' ? 'primary' : 'secondary'}>x</Button></Col>
-                    <Col xs={1}><Button onClick={operacionHandler} value="÷" variant={operacion === '÷' ? 'primary' : 'secondary'}>÷</Button></Col>
+            <Container className="pb-4 pt-4">
+                <Row className="">
+                    <Col xs={1} ><Button className="w-100" onClick={operacionHandler} value="+" variant={operacion === '+' ? 'primary' : 'secondary'}>+</Button></Col>
+                    <Col xs={1}><Button className="w-100" onClick={operacionHandler} value="-" variant={operacion === '-' ? 'primary' : 'secondary'}>-</Button></Col>
+                    <Col xs={1}><Button className="w-100" onClick={operacionHandler} value="x" variant={operacion === 'x' ? 'primary' : 'secondary'}>x</Button></Col>
+                    <Col xs={1}><Button className="w-100" onClick={operacionHandler} value="÷" variant={operacion === '÷' ? 'primary' : 'secondary'}>÷</Button></Col>
                 </Row>
             </Container>
         </div>
